@@ -385,7 +385,10 @@
       
         
           
-            <h1 id="封装"><a href="#封装" class="headerlink" title="封装"></a>封装</h1><pre><code>
+            <blockquote>
+<p>一般面向对象语言支持俩种继承方式:接口继承，实现继承。接口继承是继承方法签名，实现继承则继承实际的方法。由于JavaScript函数没有签名，无法实现接口继承，ECMAscript只支持实现继承，主要依靠原型链实现。</p>
+</blockquote>
+<h1 id="封装"><a href="#封装" class="headerlink" title="封装"></a>封装</h1><pre><code>
 var Book = function(id,name,price){
     var num = 1;   //私有属性；
     function checkId(){//私有方法
